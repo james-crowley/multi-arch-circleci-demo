@@ -27,8 +27,7 @@ We want to setup CircleCI to accomplish the following:
 - Deploy the new images to their appropriate platforms for http://multi-arch.circleci-demo-app.com
 
 
-Currently, the demo deploys a Flask based website utilizing Docker. The flask server is load balanced on multiple architectures! Feel free to refresh a couple times and your architecture should change! You can view the live site [here](http://multi-arch.circleci-demo-app.com).
-
+Currently, the demo deploys a Flask based website utilizing Docker. The flask server is load balanced on multiple architectures! Feel free to refresh a couple times and your architecture should change!
 Some other links that might be important:
 
 - [DockerHub Link](https://hub.docker.com/r/jimcrowley/multi-arch-circleci-demo)
