@@ -24,7 +24,7 @@ We want to setup CircleCI to accomplish the following:
 - Test the container to make sure it is functioning
 - If tests past, tag the images and push the architecture specific images
 - Create Docker manifests to allow users to pull down the image without caring about architecture
-- Deploy the new images to their appropriate platforms for http://multi-arch.circleci-demo-app.com
+- Deploy the new images to their appropriate platforms
 
 
 Currently, the demo deploys a Flask based website utilizing Docker. The flask server is load balanced on multiple architectures! Feel free to refresh a couple times and your architecture should change!
